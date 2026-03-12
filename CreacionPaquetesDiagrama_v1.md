@@ -1,6 +1,7 @@
 # Comparativa del Proceso de Formación de Paquetes
 
-A continuación, se presentan dos diagramas de flujo que describen el proceso de armado de envíos de ODPs. El primero ilustra la lógica anterior implementada en [EnQueueListener](file:///c:/Users/bioj/git/negocio_8s_karpay_todas/src/banxico/spei/listeners/EnQueueListener.java#73-969), mientras que el segundo muestra la lógica optimizada que delega la agrupación a la base de datos a través de una subconsulta `EXISTS`.
+A continuación, se presentan dos diagramas de flujo que describen el proceso de armado de envíos de ODPs. 
+El primero ilustra la lógica anterior implementada en EnQueueListener mientras que el segundo muestra la lógica optimizada que delega la agrupación a la base de datos a través de una subconsulta `EXISTS`.
 
 ## Secuencia Original (Iteración en Memoria)
 
