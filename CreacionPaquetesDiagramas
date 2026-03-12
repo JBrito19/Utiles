@@ -4,7 +4,7 @@ A continuación, se presentan dos diagramas de flujo que describen el proceso de
 
 ## Secuencia Original (Iteración en Memoria)
 
-```mermaid
+```
 flowchart TD
     Inicio(("Inicio")) --> ConsultarODP["Consultar ODPs en DB<br>(EnvioOdpsDAOImpl)"]
     ConsultarODP --> CicloPrincipal{"¿Existen ODPs<br>por enviar?"}
